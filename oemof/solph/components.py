@@ -285,10 +285,10 @@ class GenericInvestmentStorageBlock(SimpleBlock):
 
     **The following variables are created:**
 
-    capacity :attr:`om.InvestmentStorage.capacity[n, t]`
+    capacity :attr:`om.GenericInvestmentStorageBlock.capacity[n, t]`
         Level of the storage (indexed by STORAGES and TIMESTEPS)
 
-    invest :attr:`om.InvestmentStorage.invest[n, t]`
+    invest :attr:`om.GenericInvestmentStorageBlock.invest[n, t]`
         Nominal capacity of the storage (indexed by STORAGES)
 
 
